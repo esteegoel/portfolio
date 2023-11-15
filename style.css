@@ -32,11 +32,13 @@ nav a {
 #pink-n {
     display: inline-block;
     color: #ef3054;
+    font-size: 200px;
 }
 
 #yellow-n {
     display: inline-block;
-    color: #fde74c; 
+    color: #fde74c;
+    font-size: 200px; 
 }
 
 section {
