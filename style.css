@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #084B83; 
-    color: #BBE6E4; 
+    background-color: #084B83;
+    color: #BBE6E4;
 }
 
 header {
@@ -25,20 +25,27 @@ nav a {
 }
 
 .name {
-    font-family: "Luminari", sans-serif; 
+    font-family: "Luminari", sans-serif;
     text-align: center;
 }
 
-#pink-n {
+img {
+    display: block;
+    margin: 0 auto 10px; /* Center the image and add some space below it */
+}
+
+#pink-n,
+#yellow-n {
     display: inline-block;
-    color: #ef3054;
     font-size: 200px;
 }
 
+#pink-n {
+    color: #ef3054;
+}
+
 #yellow-n {
-    display: inline-block;
     color: #fde74c;
-    font-size: 200px; 
 }
 
 section {
@@ -46,10 +53,10 @@ section {
 }
 
 h3 {
-    color: #BBE6E4; 
+    color: #BBE6E4;
 }
 
 h4 {
-    font-family: "Luminari", sans-serif; 
+    font-family: "Luminari", sans-serif;
     text-align: center;
 }
