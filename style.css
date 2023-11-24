@@ -75,6 +75,35 @@ h4 {
     padding: 40px;
 }
 
-#about-image {
+.image-section {
     width: 50%;
+    position: relative;
+}
+
+#about-image {
+    width: 70%;
+    border-radius: 8px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.buttons h1 {
+    margin: 10px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 5px 80px;
+    background-color: #ef3054; 
+    color: #084B83; 
+    border-radius: 60px; 
+    text-decoration: none;
+    font-size: 60px;
 }
