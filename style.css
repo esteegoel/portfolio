@@ -74,6 +74,8 @@ h4 {
     margin-left: 90px;
     width: 30%;
     padding: 40px;
+    line-height: 2;
+    letter-spacing: 2px
 }
 
 .image-section {
