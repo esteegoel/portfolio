@@ -146,3 +146,49 @@ h4 {
     letter-spacing: 1px;
     font-weight: bolder;
 }
+
+.detail-button-pink {
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 3px 50px;
+    background-color: #ef3054; 
+    color: #084B83; 
+    border-radius: 40px; 
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items:last baseline;
+}
+
+.detail-button-orange {
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 3px 50px;
+    background-color: #f46036; 
+    color: #084B83; 
+    border-radius: 40px; 
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.detail-button-yellow {
+    font-family: "Arial", sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 3px 50px;
+    background-color: #fde74c; 
+    color: #084B83; 
+    border-radius: 40px; 
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 20px;
+}
