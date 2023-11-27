@@ -200,3 +200,12 @@ h4 {
 .project:hover .detail-button-yellow {
     box-shadow: 0 0 10px lightgray;
 }
+
+.button-shadow {
+    transition: box-shadow 0.3s; 
+}
+
+.button-shadow:hover {
+    box-shadow: 0 0 10px lightgray;
+}
+
