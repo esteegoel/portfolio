@@ -209,3 +209,14 @@ h4 {
     box-shadow: 0 0 10px lightgray;
 }
 
+.animation {
+    margin-top: -570px;
+    position: relative;
+}
+
+.layered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
