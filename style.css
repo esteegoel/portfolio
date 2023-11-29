@@ -247,6 +247,11 @@ h4 {
 .puddlebox {
     position: relative;
     overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.puddlebox:hover {
+    transform: scale(1.1);
 }
 
 .flip-vertical {
@@ -266,9 +271,21 @@ h4 {
 .overlay-text-yellow {
     color: #fde74c; 
     left: 48%;
+    text-decoration: none;
 }
 
 .overlay-text-pink {
     color: #ef3054; 
     left: 62%;
+    text-decoration: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 150%;
+    left: 24%;
+}
+
+.animation-box {
+    margin-top: -450px;
 }
