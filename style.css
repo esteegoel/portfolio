@@ -227,7 +227,7 @@ h4 {
 
 .main-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .detail-content {
