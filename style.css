@@ -238,3 +238,17 @@ h4 {
     letter-spacing: 2px;
     font-size: 20px;
 }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.puddlebox {
+    margin: 10px;
+}
+
+.flip-vertical {
+    transform: scaleX(-1);
+}
+
