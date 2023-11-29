@@ -245,10 +245,30 @@ h4 {
 }
 
 .puddlebox {
-    margin: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .flip-vertical {
     transform: scaleX(-1);
 }
 
+.overlay-text-yellow, .overlay-text-pink {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Luminari", sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.overlay-text-yellow {
+    color: #fde74c; 
+    left: 48%;
+}
+
+.overlay-text-pink {
+    color: #ef3054; 
+    left: 62%;
+}
