@@ -254,6 +254,11 @@ h4 {
     transform: scale(1.1);
 }
 
+.puddle {
+    position: relative;
+    overflow: hidden;
+}
+
 .flip-vertical {
     transform: scaleX(-1);
 }
@@ -281,9 +286,11 @@ h4 {
 }
 
 .overlay {
-    position: absolute;
+    position: fixed;
     top: 150%;
-    left: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 0.5s ease-in-out;
 }
 
 .animation-box {
