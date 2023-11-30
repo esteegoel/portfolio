@@ -29,6 +29,7 @@ nav a {
     text-align: center;
     position: relative;
     top: -315px;
+    z-index: 2;
 }
 
 img {
@@ -246,7 +247,7 @@ h4 {
 
 .puddlebox {
     position: relative;
-    overflow: hidden;
+    overflow: clip;
     transition: transform 0.3s, box-shadow 0.3s; 
 }
 
@@ -295,4 +296,5 @@ h4 {
 
 .animation-box {
     margin-top: -450px;
+    z-index: 1;
 }
