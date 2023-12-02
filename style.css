@@ -229,6 +229,12 @@ h4 {
 .main-container {
     display: flex;
     flex-direction: row;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.main-container.fade-in {
+    opacity: 1; 
 }
 
 .detail-content {
