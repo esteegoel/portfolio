@@ -7,7 +7,7 @@
     // calculate max top value from viewport height
     const maxTop = window.innerHeight * 0.75;
 
-    // set  top value within  range of minTop and maxTop
+    // set  top value in range
     const finalTop = Math.min(maxTop, Math.max(minTop, translateY));
 
     document.querySelector('.overlay').style.top = `calc(50% + ${finalTop}px)`;
