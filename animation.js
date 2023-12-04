@@ -13,7 +13,7 @@
     document.querySelector('.overlay').style.top = `calc(50% + ${finalTop}px)`;
 }
 
-// listen for the scroll event and call update function
+// listen for scroll event and call update function
 window.addEventListener('load', updateBoatPosition);
 window.addEventListener('scroll', updateBoatPosition);
 
