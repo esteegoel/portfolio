@@ -293,12 +293,13 @@ h4 {
 }
 
 .overlay {
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: calc(50% + 900px);
     left: 50%;
     transform: translate(-50%, -50%);
     transition: top 0.5s ease-in-out;
 }
+
 
 .animation-box {
     margin-top: -450px;
