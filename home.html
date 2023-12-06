@@ -27,7 +27,7 @@
     </header>
 
     <div class="div">
-        <img src="assets/logos/main.jpg" width="600" alt="main"/> 
+        <img id = "figure" src="assets/logos/main.jpg" width="1200" alt="main"/> 
         <div  class="name">
             <h1 id="yellow-n">estée</h1>
             <h1 id="pink-n">goel</h1>
@@ -75,9 +75,8 @@
 </body>
 <script>
     var y = document.getElementById("yellow-n").getBoundingClientRect().bottom;
-    document.querySelector(".overlay").style.top = y + 100;
+    document.getElementById('yellow-n').style.top = y + 100;
     document.querySelector(".layered-image").style.top = y + 100;
-
     function handleScroll() {
             var containers = document.querySelectorAll('.main-container');
 

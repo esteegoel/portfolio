@@ -1,7 +1,7 @@
- function updateBoatPosition() {
+function updateBoatPosition() {
     const scrollY = window.scrollY || window.pageYOffset;
     const translateY = scrollY / 1;
-    const minTop = 60;
+    const minTop = 0;
 
     // calculate max top value from viewport height
     const maxTop = window.innerHeight * 0.75;

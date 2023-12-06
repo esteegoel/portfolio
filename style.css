@@ -12,8 +12,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    z-index: 4;
+    background-color: #084B83;
+    position: relative;
 }
-
 nav h2 {
     display: flex;
 }
@@ -32,8 +34,8 @@ nav a {
     z-index: 3;
 }
 
-.div {
-    z-index: 2;
+#figure {
+    z-index: 4;
 }
 
 img {
@@ -235,6 +237,7 @@ h4 {
     flex-direction: row;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    z-index: 1;
 }
 
 .main-container.fade-in {
@@ -307,5 +310,9 @@ h4 {
 
 .animation-box {
     margin-top: -450px;
-    z-index: 1;
+}
+
+.div {
+    position: relative;
+    z-index: 3;
 }
