@@ -29,6 +29,10 @@ nav a {
     text-align: center;
     position: relative;
     top: -315px;
+    z-index: 3;
+}
+
+.div {
     z-index: 2;
 }
 
@@ -293,13 +297,13 @@ h4 {
 }
 
 .overlay {
-    position: absolute;
-    top: calc(50% + 900px);
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: top 0.5s ease-in-out;
+    z-index: 2;
 }
-
 
 .animation-box {
     margin-top: -450px;
