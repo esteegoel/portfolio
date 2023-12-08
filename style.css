@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #084B83;
+    background-color: #012340;
     color: #BBE6E4;
 }
 
@@ -13,7 +13,7 @@ header {
     align-items: center;
     padding: 20px;
     z-index: 4;
-    background-color: #084B83;
+    background-color: #012340;
     position: relative;
 }
 nav h2 {
@@ -115,7 +115,7 @@ h4 {
     display: inline-block;
     padding: 5px 100px;
     background-color: #ef3054; 
-    color: #084B83; 
+    color: #012340; 
     border-radius: 60px; 
     text-decoration: none;
     font-size: 60px;
@@ -125,7 +125,7 @@ h4 {
     display: inline-block;
     padding: 5px 100px;
     background-color: #fde74c; 
-    color: #084B83; 
+    color: #012340; 
     border-radius: 60px; 
     text-decoration: none;
     font-size: 60px;
@@ -137,7 +137,7 @@ h4 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #084B83;
+    background-color: #012340;
     color: #fde74c;
     font-style: italic;
     letter-spacing: 1px;
@@ -149,7 +149,7 @@ h4 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #084B83;
+    background-color: #012340;
     color: #ef3054;
     font-style: italic;
     letter-spacing: 1px;
@@ -162,7 +162,7 @@ h4 {
     display: inline-block;
     width: 250px;
     padding: 3px;
-    color: #084B83;
+    color: #012340;
     border-radius: 40px;
     text-decoration: none;
     font-size: 40px;
@@ -344,7 +344,7 @@ h4 {
     display: inline-block;
     padding: 2px 70px;
     background-color: #ef3054; 
-    color: #084B83; 
+    color: #012340; 
     border-radius: 60px; 
     text-decoration: none;
     font-size: 40px;
@@ -355,7 +355,7 @@ h4 {
     display: inline-block;
     padding: 2px 70px;
     background-color: #fde74c; 
-    color: #084B83; 
+    color: #012340; 
     border-radius: 60px; 
     text-decoration: none;
     font-size: 40px;
