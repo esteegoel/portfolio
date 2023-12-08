@@ -393,3 +393,7 @@ h4 {
     color: #ef3054; 
     text-decoration: none;
 }
+
+img {
+    max-width: 100%;
+}
