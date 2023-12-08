@@ -361,3 +361,35 @@ h4 {
     font-size: 40px;
     margin-top: 20px;
 }
+
+.rowing-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rowing-content {
+    margin-left: 90px;
+    width: 35%;
+    padding: 40px;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.rowing-text-yellow, .rowing-text-pink {
+    position: absolute;
+    font-family: "Luminari", sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.rowing-text-yellow {
+    color: #fde74c; 
+    text-decoration: none;
+    letter-spacing: 1cap;
+}
+
+.rowing-text-pink {
+    color: #ef3054; 
+    text-decoration: none;
+}
