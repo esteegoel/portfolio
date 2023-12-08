@@ -31,7 +31,6 @@ nav a {
     text-align: center;
     position: relative;
     top: -315px;
-    z-index: 3;
 }
 
 #figure {
@@ -50,6 +49,7 @@ img {
     margin-right: 20px;
     letter-spacing: 10px;
     font-style: italic;
+    z-index: 3;
 }
 
 #pink-n, #pink {
@@ -273,7 +273,7 @@ h4 {
 .puddle {
     position: relative;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 
 }
 
@@ -321,4 +321,11 @@ h4 {
 .div {
     position: relative;
     z-index: 3;
+}
+
+#arrow {
+    font-size: 80px;
+    margin: 0; 
+    margin-top: -180px;
+    transform: scaleY(-1);
 }
