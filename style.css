@@ -31,6 +31,7 @@ nav a {
     text-align: center;
     position: relative;
     top: -315px;
+    pointer-events: none;
 }
 
 #figure {
@@ -50,6 +51,7 @@ img {
     letter-spacing: 10px;
     font-style: italic;
     z-index: 3;
+    pointer-events: none;
 }
 
 #pink-n, #pink {
@@ -328,4 +330,5 @@ h4 {
     margin: 0; 
     margin-top: -180px;
     transform: scaleY(-1);
+    pointer-events: none;
 }
