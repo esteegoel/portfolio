@@ -4,14 +4,22 @@
     <link rel="icon" href="assets/logos/icon.PNG" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header>
-        <a href="home.html">
+
+<header class="navbar">
+    <div class="logo-container">
+        <a class="navbar-brand" href="home.html">
             <img src="assets/logos/logo.jpg" width="50px" alt="logo" />
         </a>
+    </div>
 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
         <nav>
             <h2>
                 <a href="home.html">home</a>
@@ -26,24 +34,26 @@
                 </a>
             </h2>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <div class="content-container">
-        <div class="text-content">
-            <p>hi! i'm <span class="highlight">estée</span>, I'm a fourth-year student at <span class="highlight-p">carnegie mellon</span> University studying economics + <span class="highlight">human-computer interaction</span> with a minor in design.</p>
+<div class="content-container">
+    <div class="text-content">
+        <p>hi! i'm <span class="highlight">estée</span>, I'm a fourth-year student at <span class="highlight-p">carnegie mellon</span> University studying economics + <span class="highlight">human-computer interaction</span> with a minor in design.</p>
+        
+        <p>i'm passionate about creating <span class="highlight-p">human-centered</span> products to solve <span class="highlight">real-world problems</span>, exploring the intersection of technology, design, and the modern political climate.</p>
             
-            <p>i'm passionate about creating <span class="highlight-p">human-centered</span> products to solve <span class="highlight">real-world problems</span>, exploring the intersection of technology, design, and the modern political climate.</p>
-                
-            <p>i'm proud of my work on both small & large scale <span class="highlight-p">projects</span> and excited to continue exploring these topics post-grad!</p>
-        </div>
+        <p>i'm proud of my work on both small & large scale <span class="highlight-p">projects</span> and excited to continue exploring these topics post-grad!</p>
+    </div>
 
-        <div class="image-section">
-            <img id="about-image" src="assets/logos/about.jpg" alt="outline drawing of me"/> 
-            <div class="buttons">
-                <a href="assets/EstéeGoelResume.pdf" class="resume-button button-shadow">resume</a>
-                <a href="design.html" class="projects-button button-shadow">projects</a>
-            </div>
+    <div class="image-section">
+        <img id="about-image" src="assets/logos/about.jpg" alt="outline drawing of me"/> 
+        <div class="buttons">
+            <a href="assets/EstéeGoelResume.pdf" class="resume-button button-shadow">resume</a>
+            <a href="design.html" class="projects-button button-shadow">projects</a>
         </div>
     </div>
+</div>
+
 </body>
 </html>
