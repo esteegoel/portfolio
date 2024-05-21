@@ -34,68 +34,7 @@
             <h1 id="arrow">^</h1>
         </div>
     </div>
-
-    <div class="animation-box">
-        <div class="main-container">
-            <div class="puddle">
-                <img src="assets/boat/puddle.jpg" width="800" alt="puddle"/>
-            </div>
-            <a href="about.html">
-                <div class="puddlebox">
-                    <img class="flip-vertical" href="about.html" src="assets/boat/puddle.jpg" width="800" alt="flipped puddle"/>
-                    <a class="overlay-text-yellow" href="about.html">about</a>
-                </div>
-            </a>
-        </div>
-        <div class="main-container">
-            <div class="puddlebox">
-                <img src="assets/boat/puddle.jpg" width="800" alt="puddle"/>
-                <a class="overlay-text-pink" href="designs.html">design</a>
-            </div>
-            <div class="puddle">
-                <img class="flip-vertical" src="assets/boat/puddle.jpg" width="800" alt="flipped puddle"/>
-            </div>
-        </div>
-        <div class="main-container">
-            <div class="puddle">
-                <img src="assets/boat/puddle.jpg" width="800" alt="puddle"/>
-            </div>
-            <div class="puddlebox">
-                <img class="flip-vertical" src="assets/boat/puddle.jpg" width="800" alt="flipped puddle"/>
-                <a class="overlay-text-yellow" href="rowing.html">rowing</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="overlay">
-        <div class="boat">
-            <img class="layered-image" src="assets/boat/port.PNG" width="800" alt="port oar"/>
-            <img class="layered-image" src="assets/boat/starboard.PNG" width="800" alt="starboard oar"/>
-            <img src="assets/boat/boat.PNG" width="750" alt="boat hull"/>
-        </div>
-    </div>
     
 </body>
-<script>
-    var y = document.getElementById("yellow-n").getBoundingClientRect().bottom;
-    document.getElementById('yellow-n').style.top = y + 100;
-    document.querySelector(".layered-image").style.top = y + 100;
-    function handleScroll() {
-            var containers = document.querySelectorAll('.main-container');
-
-            // loop thru each element to check if in  viewport
-            containers.forEach(function (container) {
-                // calc. the distance of the element from top of viewport
-                var distanceFromTop = container.getBoundingClientRect().top;
-
-                // add fade-in class if element is in viewport
-                container.classList.toggle('fade-in', distanceFromTop < window.innerHeight * 0.75);
-            });
-        }
-
-        window.addEventListener('scroll', handleScroll);
-
-        handleScroll(); 
-</script>
 
 </html>

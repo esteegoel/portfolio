@@ -318,10 +318,6 @@ h4 {
     pointer-events: none;
 }
 
-.animation-box {
-    margin-top: -450px;
-}
-
 .div {
     position: relative;
     z-index: 3;
