@@ -21,6 +21,10 @@ nav h2 {
     display: flex;
 }
 
+h2 {
+    font-size: 20px;
+}
+
 nav a {
     margin-right: 15px;
     text-decoration: none;
@@ -40,10 +44,19 @@ nav a {
     font-family: "Inter", serif;
     text-align: center;
     position: relative;
-    top: -120px;
+    top: -110px;
     font-size: 20px;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 900;
+    pointer-events: none;
+}
+
+#descrip {
+    font-family: "Inter", serif;
+    /* font-style: italic; */
+    text-align: left;
+    font-weight: 900;
+    font-size: 20px;
     pointer-events: none;
 }
 
@@ -111,9 +124,11 @@ h4 {
     margin-left: 90px;
     width: 35%;
     padding: 40px;
-    line-height: 2;
-    letter-spacing: 2px;
     font-size: 20px;
+}
+
+#title {
+    font-family: "Lemon", sans-serif;
 }
 
 .image-section {
@@ -168,7 +183,7 @@ h4 {
     box-sizing: border-box;
     background-color: #000000;
     color: #fde74c;
-    font-style: italic;
+    /* font-style: italic; */
     letter-spacing: 1px;
 }
 
