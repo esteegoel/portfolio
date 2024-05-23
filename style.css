@@ -47,7 +47,7 @@ nav a {
     top: -110px;
     font-size: 20px;
     /* font-style: italic; */
-    font-weight: 900;
+    /* font-weight: 900; */
     pointer-events: none;
 }
 
@@ -55,7 +55,7 @@ nav a {
     font-family: "Inter", serif;
     /* font-style: italic; */
     text-align: left;
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 20px;
     pointer-events: none;
 }
@@ -199,7 +199,7 @@ h4 {
 
 .detail-button-pink, .detail-button-orange, .detail-button-yellow {
     font-family: "Inter", sans-serif;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     display: inline-block;
     width: 250px;
     padding: 3px;
