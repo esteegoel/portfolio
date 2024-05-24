@@ -129,8 +129,13 @@ img {
 
 }
 
-#outro {
+footer {
     color: #9b9b9b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:last baseline;
+    padding: 0 100px;    /* position: relative; */
 }
 
 section {
