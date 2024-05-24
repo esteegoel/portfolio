@@ -32,6 +32,7 @@ nav a {
     color: #ffffff;
 }
 
+
 .name {
     font-family: "Lemon", serif;
     text-align: center;
@@ -140,6 +141,11 @@ h4 {
     font-family: "Inter", sans-serif;
 }
 
+.content-container2 {
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
 .text-content {
     font-family: "Inter", sans-erif;
     margin-left: 90px;
@@ -154,6 +160,14 @@ h4 {
     width: 35%;
     padding: 70px;
     font-size: 22px;
+}
+
+.text-content2 {
+    font-family: "Inter", sans-erif;
+    margin-left: 100px;
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
 }
 
 #title {
@@ -173,6 +187,12 @@ h4 {
 
 #about-image {
     width: 70%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#detail-image {
+    width: 90%;
     max-width: 100%;
     border-radius: 8px;
 }
@@ -247,6 +267,7 @@ h4 {
     font-size: 40px;
     margin-top: 20px;
     text-align: center;
+    font-weight: 450;
 }
 
 .container {
@@ -376,4 +397,31 @@ img {
 
 .logo-container {
     order: -1;
+}
+
+h2 a.highlight, h2 a.highlight-p {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    letter-spacing: 1px;
+    text-decoration: none;  /* Add this line */
+    /* color: inherit; Ensure the color is inherited from the parent element */
+}
+
+h2 a.highlightz {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    letter-spacing: 1px;
+    text-decoration: underline;  /* Add this line */
+    text-underline-offset: 10px;
+    color: #fde74c; 
+}
+
+.center-text {
+    text-align: center;
 }
