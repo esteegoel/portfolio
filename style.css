@@ -59,6 +59,16 @@ nav a {
     font-weight: 400;
 }
 
+#more {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    pointer-events: none;
+    font-weight: 400;
+}
+
 #work {
     font-family: "Inter", sans-serif;
     text-align: center;
@@ -283,6 +293,30 @@ h4 {
 
 .detail-button-yellow {
     background-color: #fde74c
+}
+
+.small-button {
+    font-family: "Inter", sans-serif;
+    display: grid;
+    width: 150px;
+    padding: 3px;
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 43%;
+    text-align: center;
+    font-weight: 500;
+    background-color: #fde74c
+}
+
+.viewall .small-button {
+    transition: transform 0.3s;
+}
+
+.viewall:hover .small-button {
+    box-shadow: 0 0 10px lightgray;
 }
 
 .detail-button-pink {
