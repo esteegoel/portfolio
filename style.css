@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background-color: #000000;
     color: #ffffff;
+    letter-spacing: 1px;
 }
 
 header {
@@ -41,23 +42,22 @@ nav a {
 }
 
 #bio {
-    font-family: "Inter", serif;
+    font-family: "Inter", sans-serif;
     text-align: center;
     position: relative;
     top: -110px;
     font-size: 20px;
-    /* font-style: italic; */
-    /* font-weight: 900; */
     pointer-events: none;
+    font-weight: 400;
 }
 
 #descrip {
-    font-family: "Inter", serif;
-    /* font-style: italic; */
-    text-align: left;
-    /* font-weight: 900; */
-    font-size: 20px;
-    pointer-events: none;
+    font-family: "Inter", sans-serif;
+    /* font-weight: 700; */
+}
+
+p {
+    font-family: "Inter", sans-serif;
 }
 
 .work {
@@ -93,10 +93,13 @@ img {
 
 #hashtag {
     color: #ef3054;
+    /* font-weight: 700; */
 }
 
 #hashtag-y {
     color: #fde74c;
+    /* font-weight: 700; */
+
 }
 
 #outro {
@@ -112,19 +115,29 @@ h3 {
 }
 
 h4 {
-    font-family: "Lemon", sans-serif;
+    font-family: "Lemon", serif;
     text-align: center;
 }
 
 .content-container, .project-container {
     display: flex;
+    font-family: "Inter", sans-serif;
 }
 
 .text-content {
+    font-family: "Inter", sans-erif;
     margin-left: 90px;
     width: 35%;
     padding: 40px;
     font-size: 20px;
+}
+
+.text-contents {
+    font-family: "Inter", sans-erif;
+    margin-left: 90px;
+    width: 35%;
+    padding: 70px;
+    font-size: 22px;
 }
 
 #title {
@@ -134,6 +147,12 @@ h4 {
 .image-section {
     width: 50%;
     position: relative;
+}
+
+.image-sect {
+    width: 50%;
+    position: relative;
+    margin-left: -80px;
 }
 
 #about-image {
@@ -149,6 +168,7 @@ h4 {
     transform: translateX(-50%);
     text-align: center;
     width: 100%;
+    top: 350px;
 }
 
 .buttons h1 {
@@ -163,6 +183,7 @@ h4 {
     border-radius: 60px; 
     text-decoration: none;
     font-size: 60px;
+    font-weight: 500;
 }
 
 .projects-button {
@@ -174,6 +195,7 @@ h4 {
     text-decoration: none;
     font-size: 60px;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .highlight {
@@ -184,7 +206,7 @@ h4 {
     background-color: #000000;
     color: #fde74c;
     /* font-style: italic; */
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 }
 
 .highlight-p {
@@ -194,7 +216,7 @@ h4 {
     box-sizing: border-box;
     background-color: #000000;
     color: #ef3054;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 }
 
 .detail-button-pink, .detail-button-orange, .detail-button-yellow {
