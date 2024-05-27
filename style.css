@@ -82,6 +82,13 @@ nav a {
     font-family: "Inter", sans-serif;
 }
 
+#descrip2 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #fde74c;
+}
+
 p {
     font-family: "Inter", sans-serif;
 }
@@ -195,6 +202,12 @@ h4 {
     font-family: "Lemon", sans-serif;
 }
 
+#title2 {
+    font-family: "Lemon", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
 .image-section {
     width: 50%;
     position: relative;
@@ -276,6 +289,27 @@ h4 {
     letter-spacing: .5px;
 }
 
+.highlight-pb {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ef3054;
+    letter-spacing: .5px;
+    font-size: 22px;
+}
+
+.highlight-yb {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #fde74c;
+    letter-spacing: .5px;
+    font-size: 22px;
+}
 .detail-button-pink, .detail-button-orange, .detail-button-yellow {
     font-family: "Inter", sans-serif;
     /* font-weight: lighter; */
@@ -493,29 +527,42 @@ h2 a.highlightz {
     text-align: center;
 }
 
-.context {
-    display: flex;
-    justify-content: space-evenly;
-    /* align-items:first baseline; */
-    padding: 0 90px;    /* position: relative; */
-} 
-
 .align {
     display: flex;
-    justify-content: space-between;
-    align-items:first baseline;
+    justify-content: space-evenly;
+    align-items: first baseline;
     /* padding: 0 90px;    position: relative; */
 } 
 
-.boxy {
+.titlebox {
     display: flex;
-    flex-direction: column;
+    padding: 0 100px;
+    justify-content: space-between;
+    gap: 200px;
 }
 
 .box {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-    /* align-items:last baseline; */
     padding: 0 200px;    /* position: relative; */
+    gap: -100px;
+}
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    /* padding-right: 100px; */
+}
+
+.bigbox {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    /* padding-right: 100px; */
 }
