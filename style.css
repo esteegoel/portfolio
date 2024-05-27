@@ -202,6 +202,20 @@ h4 {
     font-family: "Lemon", sans-serif;
 }
 
+#number {
+    font-family: "Lemon", sans-serif;
+    text-align: center;
+    color: #ef3054;
+}
+
+.data {
+    gap: 10px;
+}
+
+.num {
+    text-align: center;
+}
+
 #title2 {
     font-family: "Lemon", sans-serif;
     text-align: center;
@@ -286,6 +300,16 @@ h4 {
     box-sizing: border-box;
     background-color: #000000;
     color: #ef3054;
+    letter-spacing: .5px;
+}
+
+.highlight-g {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
     letter-spacing: .5px;
 }
 
@@ -546,6 +570,15 @@ h2 a.highlightz {
     flex-direction: column;
     padding: 0 200px;    /* position: relative; */
     gap: -100px;
+}
+
+.newbox {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* padding: 0 200px;    position: relative; */
+    gap: 90px;
+    /* z-index: 2; */
 }
 
 .leftbar {
