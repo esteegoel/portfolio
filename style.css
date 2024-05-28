@@ -198,7 +198,7 @@ h4 {
     font-size: 20px;
 }
 
-#title {
+.title {
     font-family: "Lemon", sans-serif;
 }
 
@@ -386,6 +386,30 @@ h4 {
 
 .viewall:hover .small-button {
     box-shadow: 0 0 10px lightgray;
+}
+
+.prototype .small-button2 {
+    transition: transform 0.3s;
+}
+
+.prototype:hover .small-button2 {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.small-button2 {
+    font-family: "Inter", sans-serif;
+    display: grid;
+    width: 200px;
+    padding: 10px;
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    /* margin-left: 43%; */
+    text-align: center;
+    font-weight: 500;
+    background-color: #fde74c
 }
 
 .detail-button-pink {
@@ -585,6 +609,7 @@ h2 a.highlightz {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
+    width: 50%;
 }
 
 .rightbar {
@@ -595,7 +620,40 @@ h2 a.highlightz {
 
 .bigbox {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* flex-direction: column; */
     /* padding-right: 100px; */
+}
+
+/* Sidebar styling remains the same */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    font-family: 'Inter', sans-serif;
+    display: block;
+    color: #ef3054;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    color: #fde74c; /* Highlight active link */
+}
+
+.sidebar a:hover:not(.active) {
+    color: #ef3054;
+}
+
+/* Page content */
+.content {
+    margin-left: 200px;
+    padding: 16px;
+    height: 1000px;
 }
