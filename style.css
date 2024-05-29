@@ -302,7 +302,7 @@ h4 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
+    /* background-color: #000000; */
     color: #fde74c;
     /* font-style: italic; */
     letter-spacing: .5px;
@@ -405,6 +405,33 @@ h4 {
 
 #news {
     text-align: center;
+}
+
+#report {
+    text-align: center;
+    align-items: left;
+}
+
+.reportbox {
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+.report-button {
+    font-family: "Inter", sans-serif;
+    display: grid;
+    width: 150px;
+    /* padding: 3px; */
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    /* margin-top: 20px; */
+    /* margin-left: 45%; */
+    /* text-align: center; */
+    font-weight: 500;
+    background-color: #ef3054
 }
 
 .prototype .small-button2 {
