@@ -733,7 +733,12 @@ h2 a.highlightz {
     color: #ef3054;
 }
 
-/* Page content */
+.shirtbox {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
 .content {
     margin-left: 200px;
     padding: 16px;
