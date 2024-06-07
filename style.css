@@ -458,6 +458,30 @@ h4 {
     background-color: #fde74c
 }
 
+.prototype .small-button3 {
+    transition: transform 0.3s;
+}
+
+.prototype:hover .small-button3 {
+    box-shadow: 0 0 10px lightgray;
+}
+
+.small-button3 {
+    font-family: "Inter", sans-serif;
+    display: grid;
+    width: 200px;
+    padding: 10px;
+    color: #000000;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    /* margin-left: 43%; */
+    text-align: center;
+    font-weight: 500;
+    background-color: #ef3054
+}
+
 .detail-button-pink {
     background-color: #ef3054
 }
@@ -661,6 +685,13 @@ h2 a.highlightz {
     flex-direction: column;
     padding-left: 100px;
     width: 60%;
+}
+
+.leftbar-b {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    width: 180%;
 }
 
 .rightbar {
