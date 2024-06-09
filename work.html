@@ -130,6 +130,23 @@
             <p> coded from scratch ♥︎ with love </p>
             <p> © 2024 Estée Goel </p>
         </footer>
-
+        <script>
+            function handleScroll() {
+                    var containers = document.querySelectorAll('.projectbox');
+        
+                    // loop thru each element to check if in  viewport
+                    containers.forEach(function (container) {
+                        // calc. the distance of the element from top of viewport
+                        var distanceFromTop = container.getBoundingClientRect().top;
+        
+                        // add fade-in class if element is in viewport
+                        container.classList.toggle('fade-in', distanceFromTop < window.innerHeight * 0.9);
+                    });
+                }
+        
+                window.addEventListener('scroll', handleScroll);
+        
+                handleScroll();
+        </script>
 </body>
 </html>
