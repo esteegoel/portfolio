@@ -237,6 +237,12 @@ h4 {
     margin-left: -80px;
 }
 
+.image-sect2 {
+    width: 80%;
+    position: absolute;
+    margin-left: 500px;
+}
+
 #about-image {
     width: 70%;
     max-width: 100%;
@@ -260,6 +266,20 @@ h4 {
 }
 
 .buttons h1 {
+    margin: 10px;
+}
+
+.buttons-left {
+    position: relative;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    top: 50px;
+}
+
+.buttons-left h1 {
     margin: 10px;
 }
 
