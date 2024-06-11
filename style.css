@@ -336,6 +336,18 @@ h4 {
     letter-spacing: .5px;
 }
 
+.racing {
+    font-family: "Lemon", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #fde74c;
+    /* font-style: italic; */
+    letter-spacing: .5px;
+    font-size: 30px;
+}
+
 .bold {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -612,20 +624,20 @@ h4 {
 }
 
 .rowing-content2 {
-    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.race {
     margin-left: 90px;
-    width: 35%;
-    padding: 40px;
-    line-height: 2.5;
-    letter-spacing: 1px;
-    /* font-size: 18px; */
+    line-height: 1.5;
 }
 
 .rowing-text-yellow, .rowing-text-pink {
     position: absolute;
     font-family: "Lemon", sans-serif;
     font-style: regular;
-    font-size: 120px;
+    font-size: 0px;
 }
 
 .rowing-text-yellow {
