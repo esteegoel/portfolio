@@ -46,7 +46,7 @@ nav a {
     font-family: "Lemon", serif;
     text-align: center;
     position: relative;
-    top: -300px;
+    top: -330px;
     pointer-events: none;
     margin-bottom: -200px;
 }
@@ -64,6 +64,16 @@ nav a {
     position: relative;
     top: -110px;
     font-size: 20px;
+    pointer-events: none;
+    font-weight: 9800;
+}
+
+#bio2 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    position: relative;
+    top: -110px;
+    font-size: 14px;
     pointer-events: none;
     font-weight: 400;
 }
@@ -589,15 +599,26 @@ h4 {
 .rowing-container {
     display: flex;
     flex-direction: row;
+    justify-content: first baseline;
 }
 
 .rowing-content {
     margin-left: 90px;
     width: 35%;
     padding: 40px;
-    line-height: 2;
-    letter-spacing: 2px;
-    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.rowing-content2 {
+    margin-top: -200px;
+    margin-left: 90px;
+    width: 35%;
+    padding: 40px;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    /* font-size: 18px; */
 }
 
 .rowing-text-yellow, .rowing-text-pink {
