@@ -51,6 +51,20 @@ nav a {
     margin-bottom: -200px;
 }
 
+.disclaimer {
+    display: none;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    /* position: relative; */
+    pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+    .disclaimer {
+        display: block,
+    }
+}
+
 .works {
     font-family: "Lemon", serif;
     text-align: center;
