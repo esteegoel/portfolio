@@ -46,7 +46,7 @@ nav a {
     font-family: "Lemon", serif;
     text-align: center;
     position: relative;
-    top: -390px;
+    top: -340px;
     pointer-events: none;
     margin-bottom: -200px;
 }
@@ -134,6 +134,7 @@ p {
 
 #figure {
     z-index: 4;
+    margin-top: -50px;
 }
 
 img {
