@@ -158,6 +158,14 @@ img {
     color: #fde74c;
 }
 
+#newyellow {
+    display: inline-block; 
+    font-size: 150;
+    margin-right: 20;
+    letter-spacing: 5;
+    color: #fde74c;
+}
+
 #hashtag {
     color: #ef3054;
     /* font-weight: 700; */
